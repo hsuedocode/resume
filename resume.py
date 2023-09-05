@@ -180,13 +180,8 @@ if __name__ == "__main__":
         nargs="?",
     )
     parser.add_argument(
-        "--no-html",
-        help="Do not write html output",
-        action="store_true",
-    )
-    parser.add_argument(
-        "--no-pdf",
-        help="Do not write pdf output",
+        "--html",
+        help="Also write html output",
         action="store_true",
     )
     parser.add_argument(
@@ -210,10 +205,9 @@ if __name__ == "__main__":
         md = mdfp.read()
     html = make_html(md, prefix=prefix)
 
-    if not args.no_html:
+    if args.html:
         with open(prefix + ".html", "w", encoding="utf-8") as htmlfp:
             htmlfp.write(html)
             logging.info(f"Wrote {htmlfp.name}")
 
-    if not args.no_pdf:
-        write_pdf(html, prefix=prefix, chrome=args.chrome_path)
+    write_pdf(html, prefix=prefix, chrome=args.chrome_path)

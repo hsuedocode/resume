@@ -4,29 +4,26 @@
 
 Write your resume in
 [Markdown](https://raw.githubusercontent.com/mikepqr/resume.md/main/resume.md),
-style it with [CSS](resume.css), output to [HTML](resume.html) and
-[PDF](resume.pdf).
+style it with [CSS](resume.css), output to [PDF](resume.pdf) or [HTML](resume.html)
+
 
 ## Prerequisites
 
  - Python ≥ 3.6
- - [python-markdown](https://python-markdown.github.io/) (`pip install
-   markdown`)
+ - Install dependencies in virtual env 
+   - Add virtual env - `python3 -m venv venv`
+   - Activate venv `source venv/bin/activate`
+   - Install dependencies `pip3 install -r requirements.txt`
  - Optional, required for PDF output: Google Chrome or Chromium
 
 ## Usage
-
- 1. Download [resume.py](resume.py), [resume.md](resume.md) and
-    [resume.css](resume.css) (or make a copy of this repository by [using the
-    template](https://github.com/mikepqr/resume.md/generate), forking, or
-    cloning).
-
+ 1. Activate venv `source venv/bin/activate` 
  2. Edit [resume.md](resume.md) (the placeholder text is taken with thanks from
     the [JSON Resume Project](https://jsonresume.org/themes/))
 
- 3. Run `python3 resume.py` to build resume.html and resume.pdf.
+ 3. Run `python3 resume.py` to build `resume.pdf` by default
 
-     - Use `--no-html` or `--no-pdf` to disable HTML or PDF output.
+     - Use `--html` to also output to `resume.html`
 
      - Use `--chrome-path=/path/to/chrome` if resume.py cannot find your Chrome
        or Chromium executable.
