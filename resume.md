@@ -5,6 +5,7 @@
 line. It is intended to be used for contact details -->
 - <mhsueh2@gmail.com>
 - <https://www.linkedin.com/in/martinhsueh>
+- Seattle/Remote/Flexible
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
@@ -20,6 +21,8 @@ is intended to be used for a short summary. -->
 
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
+### <span>Career Break</span><span>05/2023 - 09/2023</span>
+- Fulfilled my dream of bikepacking around the island of Taiwan, jogged along the streneous 12-mile loop of the historic Seoul Wall, embarked on 5 river tracing expeditions, and indulged in all of the 8 cuisines of China. 
 ### <span>Tech Lead - Internal Tools, Xealth</span><span>02/2022 - 05/2023</span>
 - Led a scrum team of 5 engineers in managing the Xealth tooling ecosystem, including 2 mission-critical distributed systems and 5 full-stack applications written in TypeScript.
 - Influenced the engineering culture by mentoring junior engineers in industry best practices, conducting code reviews, and presenting and publishing technical blogs.
