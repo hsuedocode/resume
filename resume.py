@@ -146,17 +146,18 @@ def write_pdf(html: str, prefix: str = "resume", chrome: str = "") -> None:
     options.append(f"--crash-dumps-dir={tmpdir}")
     options.append(f"--user-data-dir={tmpdir}")
 
+    pdf_output = f"{prefix}_martin_hsueh.pdf"
     try:
         subprocess.run(
             [
                 chrome,
                 *options,
-                f"--print-to-pdf={prefix}.pdf",
+                f"--print-to-pdf={pdf_output}",
                 "data:text/html;base64," + html64.decode("utf-8"),
             ],
             check=True,
         )
-        logging.info(f"Wrote {prefix}.pdf")
+        logging.info(f"Wrote {pdf_output}")
     except subprocess.CalledProcessError as exc:
         if exc.returncode == -6:
             logging.warning(
