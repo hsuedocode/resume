@@ -4,7 +4,7 @@
 <!-- The unordered list immediately after the h1 will be formatted on a single
 line. It is intended to be used for contact details -->
 - <mhsueh2@gmail.com>
-- <https://www.linkedin.com/in/martinhsueh>
+- Seattle
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
@@ -12,7 +12,7 @@ is intended to be used for a short summary. -->
 ## Skills
 
 - **Language**: Typescript, Python, Bash
-- **Framework**: Node-Express,  Node-Nest, React-Redux, Python-Flask
+- **Framework**: Node-Express,  Node-Nest, Python-Flask
 - **Database**  MongoDb, PSQL, Redis, ElasticSearch
 - **Other**: Git, AWS EC2/ECS/S3/Lambda/SQS/DynamoDB, Docker, Kubernetes, NX, Temporal
 
@@ -23,7 +23,6 @@ hand -->
 ### <span>Software Engineer - Internal Tools Tech Lead, Xealth</span> <span>02/2022 - 05/2023</span>
 - Led a team of 5 engineers in managing the Xealth tooling ecosystem, including 2 mission-critical distributed systems and 5 full-stack applications written in TypeScript.
 - Founded and built a distributed Content Management System (CMS), resulting in a 40% reduction in operational costs per customer request.
-      - Built 30 unique/10 generic UI Extensions with 80% test coverage, used across 4 React applications.
       - Built a Node-Nest Server with 80% test coverage. It collects 200 events per second from 4 webhooks and acts as a proxy to deliver data from ElasticSearch and various APIs.
       - Engineered a scalable and reliable Temporal Worker to transform and write data to OpenSearch, maintaining 100% data integrity even during 2 dependency outages. Utilized Kubernetes to scale pods 3 times expected loads, successfully completing a critical 40-minute production migration. 
       - Built the migration job, extracting 3TB of live data from ElasticSearch/S3 and transforming and writing it to rate-limited external APIs in batches.
@@ -41,7 +40,6 @@ hand -->
 - Identified inefficiencies in release tasks and enhanced developer efficiency by 50% via automation using a Bash script.
 - Designed and implemented 5+ API integrations, handling 200K requests via SOAP or REST/OAuth protocols.
 - Reduced developer configuration requirements by 25% through the application of Object-Oriented design principles, minimizing code duplication.
-- Contributed 35% of the code for the Config Manager UI (project of 3 engineers), which was built on React-Redux and consisted of hundreds of components and containers.
 - Resolved critical production bugs within tight deadlines, leveraging tools such as AWS Cloudwatch and Prometheus
 
 ### <span>Software Engineer Internship, Bespoke Metrics</span><span>01/2018 – 09/2018</span>
