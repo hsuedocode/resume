@@ -15,7 +15,7 @@ is intended to be used for a short summary. -->
 - **Language**: Typescript, Python, Bash
 - **Framework**: Node-Express,  Node-Nest, React-Redux, Python-Flask
 - **Database**  MongoDb, PSQL, Redis, ElasticSearch
-- **Other**: Git, AWS EC2/ECS/S3/Lambda/SQS/DynamoDB, Docker, Kubernetes, Healthcare, HIPAA
+- **Other**: Git, AWS EC2/ECS/S3/Lambda/SQS/DynamoDB, Docker, Kubernetes, Contentful
 
 ## Experience
 
@@ -26,7 +26,8 @@ hand -->
 ### <span>Tech Lead - Internal Tools, Xealth</span><span>02/2022 - 05/2023</span>
 - Led an agile team of 5 engineers in managing the Xealth tooling ecosystem, including 2 mission-critical distributed systems and 5 full-stack applications written in TypeScript.
 - Influenced the engineering culture by mentoring junior engineers in industry best practices, conducting code reviews, and presenting and publishing technical blogs.
-- Collaborated with PM, and cross-functional engineers to address complex engineering problems.
+- Collaborated with the PM, UX, engineers to build UI and applications to enhance user workflow experiences.
+- Explored innovative technologies such as Temporal, Nest, and NX, implemented them in production, and delivered technical presentations.
 - Founded, architected and built a distributed Content Management System (CMS), resulting in a 40% reduction in operational costs per customer request.
       - Built 30 unique/10 generic UI Extensions with 80% test coverage, used across 4 React applications.
       - Designed and built a Node-Nest Server with 80% test coverage. It collects 200 events per second from 4 webhooks and acts as a proxy to deliver data from Elasticsearch and various RESTful APIs.
