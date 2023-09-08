@@ -28,6 +28,7 @@ hand -->
 - Influenced the engineering culture by mentoring junior engineers in industry best practices, conducting code reviews, and presenting and publishing technical blogs.
 - Collaborated with the PM and cross-functional engineers to design systems iteratively
 - Founded, architected and built a distributed Content Management System (CMS), resulting in a 40% reduction in operational costs per customer request.
+      - Built 30 unique/10 generic UI Extensions with 80% test coverage, used across 4 React applications.
       - Designed and built a Node-Nest Server with 80% test coverage. It collects 200 events per second from 4 webhooks and acts as a proxy to deliver data from Elasticsearch and various RESTful APIs.
       - Engineered a scalable and reliable Temporal Worker to transform and write data to OpenSearch, maintaining 100% data integrity even during 2 dependency outages. Utilized Kubernetes to scale pods 3 times expected loads, successfully completing a critical 40-minute production migration. 
       - Built the migration job, extracting 3TB of live data from ElasticSearch/S3 and transforming and writing it to rate-limited external APIs in batches.
@@ -44,6 +45,7 @@ hand -->
 - Identified inefficiencies in release tasks and enhanced developer efficiency by 50% via automation using a Bash script.
 - Designed and implemented 5+ API integrations, handling 200K requests via SOAP or REST/OAuth protocols.
 - Reduced developer configuration requirements by 25% by employing Object-Oriented design principles, minimizing code duplication.
+- Contributed 35% of the code for the Config Manager UI (project of 3 engineers), which was built on React-Redux and consisted of hundreds of components and containers.
 - Collaborated with customers and vendors to resolve bugs and support design decisions.
 
 ### <span>Software Engineer Internship, Bespoke Metrics</span><span>01/2018 – 09/2018</span>
