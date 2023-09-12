@@ -16,7 +16,7 @@ is intended to be used for a short summary. -->
 - **Language**: Typescript, Python, Bash
 - **Framework**: Node-Express,  Node-Nest, React-Redux, Python-Flask
 - **Database**  MongoDb, PSQL, Redis, ElasticSearch, DynamoDB
-- **Other**: Git, AWS EC2/ECS/S3/Lambda/SQS, Docker, Kubernetes
+- **Other**: Git, AWS EC2/ECS/S3/Lambda/SQS, Docker, Kubernetes, Temporal, TDD
 
 ## Experience
 
