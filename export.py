@@ -5,10 +5,8 @@ import itertools
 import logging
 import os
 import re
-import shutil
 import subprocess
 import sys
-import tempfile
 
 import markdown
 
@@ -97,17 +95,15 @@ def title(md: str) -> str:
     )
 
 
-def make_html(md: str, prefix: str = "resume") -> str:
+def make_html(md: str) -> str:
     """
     Compile md to HTML and prepend/append preamble/postamble.
-
-    Insert <prefix>.css if it exists.
     """
     try:
-        with open(prefix + ".css") as cssfp:
+        with open("index.css") as cssfp:
             css = cssfp.read()
     except FileNotFoundError:
-        print(prefix + ".css not found. Output will by unstyled.")
+        print("index.css not found. Output will by unstyled.")
         css = ""
     return "".join(
         (
@@ -118,9 +114,9 @@ def make_html(md: str, prefix: str = "resume") -> str:
     )
 
 
-def write_pdf(html: str, prefix: str = "resume", chrome: str = "") -> None:
+def write_pdf(html: str, output_name: str = "resume", chrome: str = "") -> None:
     """
-    Write html to prefix.pdf
+    Write html to {output_name}.pdf
     """
     chrome = chrome or guess_chrome_path()
     html64 = base64.b64encode(html.encode("utf-8"))
@@ -134,19 +130,7 @@ def write_pdf(html: str, prefix: str = "resume", chrome: str = "") -> None:
         "--disable-gpu",
     ]
 
-    # Ideally we'd use tempfile.TemporaryDirectory here. We can't because
-    # attempts to delete the tmpdir fail on Windows because Chrome creates a
-    # file the python process does not have permission to delete. See
-    # https://github.com/puppeteer/puppeteer/issues/2778,
-    # https://github.com/puppeteer/puppeteer/issues/298, and
-    # https://bugs.python.org/issue26660. If we ever drop Python 3.9 support we
-    # can use TemporaryDirectory with ignore_cleanup_errors=True as a context
-    # manager.
-    tmpdir = tempfile.mkdtemp(prefix="resume.md_")
-    options.append(f"--crash-dumps-dir={tmpdir}")
-    options.append(f"--user-data-dir={tmpdir}")
-
-    pdf_output = f"{prefix}_martin_hsueh.pdf"
+    pdf_output = f"{output_name}.pdf"
     try:
         subprocess.run(
             [
@@ -162,23 +146,16 @@ def write_pdf(html: str, prefix: str = "resume", chrome: str = "") -> None:
         if exc.returncode == -6:
             logging.warning(
                 "Chrome died with <Signals.SIGABRT: 6> "
-                f"but you may find {prefix}.pdf was created successfully."
+                f"but you may find {output_name}.pdf was created successfully."
             )
         else:
             raise exc
-    finally:
-        shutil.rmtree(tmpdir, ignore_errors=True)
-        if os.path.isdir(tmpdir):
-            logging.debug(f"Could not delete {tmpdir}")
-
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "file",
         help="markdown input file [resume.md]",
-        default="resume.md",
-        nargs="?",
     )
     parser.add_argument(
         "--html",
@@ -200,15 +177,15 @@ if __name__ == "__main__":
     else:
         logging.basicConfig(level=logging.INFO, format="%(message)s")
 
-    prefix, _ = os.path.splitext(os.path.abspath(args.file))
-
+    dir = os.getcwd()
+    output_name = os.path.join(dir,'resume_martin_hsueh')
     with open(args.file, encoding="utf-8") as mdfp:
         md = mdfp.read()
-    html = make_html(md, prefix=prefix)
+    html = make_html(md)
 
     if args.html:
-        with open(prefix + ".html", "w", encoding="utf-8") as htmlfp:
+        with open(output_name + ".html", "w", encoding="utf-8") as htmlfp:
             htmlfp.write(html)
             logging.info(f"Wrote {htmlfp.name}")
 
-    write_pdf(html, prefix=prefix, chrome=args.chrome_path)
+    write_pdf(html, output_name=output_name, chrome=args.chrome_path)

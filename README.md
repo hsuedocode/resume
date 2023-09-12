@@ -18,13 +18,9 @@ style it with [CSS](resume.css), output to [PDF](resume.pdf) or [HTML](resume.ht
 
 ## Usage
  1. Activate venv `source venv/bin/activate` 
- 2. Edit [resume.md](resume.md) (the placeholder text is taken with thanks from
-    the [JSON Resume Project](https://jsonresume.org/themes/))
-
- 3. Run `python3 resume.py` to build `resume.pdf` by default
-
+ 2. Run `python3 export.py {file_name}.md` to export markdown to pdf by default
+     - Hardcoded to output to `resume_martin_hsueh.pdf`
      - Use `--html` to also output to `resume.html`
-
      - Use `--chrome-path=/path/to/chrome` if resume.py cannot find your Chrome
        or Chromium executable.
 
