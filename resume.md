@@ -16,7 +16,7 @@ is intended to be used for a short summary. -->
 - **Language**: Typescript, Python, Bash
 - **Framework**: Node-Express,  Node-Nest, React-Redux, Python-Flask
 - **Database**  MongoDb, PSQL, Redis, ElasticSearch
-- **Other**: Git, AWS EC2/ECS/S3/Lambda/SQS/DynamoDB, Docker, Kubernetes, CI/CD, TDD
+- **Other**: Git, AWS EC2/ECS/S3/Lambda/SQS/DynamoDB, Docker, Kubernetes, CI/CD, TDD, Temporal
 
 ## Experience
 
@@ -28,8 +28,8 @@ hand -->
 - Led an agile team of 5 engineers in managing the Xealth tooling ecosystem, including 2 mission-critical distributed systems and 5 full-stack applications written in TypeScript.
 - Influenced the engineering culture by mentoring junior engineers in industry best practices, conducting code reviews, and presenting and publishing technical blogs.
 - Collaborated with PM and cross-functional engineers to address complex engineering problems and design solutions iteratively.
-- Founded, architected and built a distributed Content Management System (CMS), resulting in a 40% reduction in operational costs per customer request.
-      - Designed and built a Node-Nest Server with 80% test coverage. It collects 200 events per second from 4 webhooks and acts as a proxy to deliver data from Elasticsearch and various RESTful APIs.
+- Founded, architected and built a distributed Content Delivery System, resulting in a 40% reduction in operational costs per customer request.
+      - Architected and built a Node-Nest Server with 80% test coverage. It collects 200 events per second from 4 webhooks and acts as a proxy to deliver data from Elasticsearch and various RESTful APIs.
       - Engineered a scalable and reliable Temporal Worker to transform and write data to OpenSearch, maintaining 100% data integrity even during 2 dependency outages. Utilized Kubernetes to scale pods 3 times expected loads, successfully completing a critical 40-minute production migration. 
       - Built the migration job, extracting 3TB of live data from ElasticSearch/S3 and transforming and writing it to rate-limited external APIs in batches.
       - Developed scripts for deploying App Config As Code to 3rd-party APIs to ensure a single source of truth.
