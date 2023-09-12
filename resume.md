@@ -16,7 +16,7 @@ is intended to be used for a short summary. -->
 - **Language**: Typescript, Python, Bash
 - **Framework**: Node-Express,  Node-Nest, React-Redux, Python-Flask
 - **Database**  MongoDb, PSQL, Redis, ElasticSearch, DynamoDB
-- **Other**: Git, AWS EC2/ECS/S3/Lambda/SQS, Docker, Kubernetes, Temporal, TDD
+- **Other**: Git, AWS EC2/ECS/S3/Lambda/SQS, Docker, Kubernetes, Temporal, NX, TDD
 
 ## Experience
 
@@ -26,28 +26,27 @@ hand -->
 - Fulfilled my dream of bikepacking around the island of Taiwan, jogged along the streneous 12-mile loop of the historic Seoul Wall, embarked on 5 river tracing expeditions, and indulged in all of the 8 cuisines of China. 
 ### <span>Tech Lead - Internal Tools, Xealth</span><span>02/2022 - 05/2023</span>
 - Led an agile team of 5 engineers in managing the Xealth tooling ecosystem, including 2 mission-critical distributed systems and 5 full-stack applications written in TypeScript.
-- Influenced the engineering culture by mentoring junior engineers in industry best practices, conducting code reviews, and presenting and publishing technical blogs.
-- Crafted product solutions and, in close collaboration with the Project Manager, translated them into a roadmap.
-- Partnered with cross-functional engineers to tackle intricate engineering challenges.
+- Designed 10+ ElasticSearch indices. Optimized a search algorithm, achieving an average latency of <3ms, far below the 80ms constraint.
+- Experimented with NestJS, Temporal, NX, and Vite, implemented them in production, and authored tech blogs to promote their adoption within the company.
 - Founded, architected and built a distributed Content Delivery System, resulting in a 40% reduction in operational costs per customer request.
-      - Built 30 unique/10 generic UI Extensions with 80% test coverage, used across 4 React applications.
+      - Composed a 90+ page design doc through 5 iterations, reviewed by principal engineers
       - Architected and built a Node-Nest Server with 80% test coverage. It collects 200 events per second from 4 webhooks and acts as a proxy to deliver data from Elasticsearch and various RESTful APIs.
       - Engineered a scalable and reliable Temporal Worker to transform and write data to OpenSearch, maintaining 100% data integrity even during 2 dependency outages. Utilized Kubernetes to scale pods 3 times expected loads, successfully completing a critical 40-minute production migration. 
       - Built the migration job, extracting 3TB of live data from ElasticSearch/S3 and transforming and writing it to rate-limited external APIs in batches.
       - Developed scripts for deploying App Config As Code to 3rd-party APIs to ensure a single source of truth.
-- Studied ElasticSearch documentation to assist in designing the Elasticsearch index and search algorithm, achieving ~3ms latency, which far exceeded the 80ms constraint.
+- Partnered with cross-functional engineers to tackle intricate engineering challenges, then translated the design into roadmap.
+- Mentored junior engineers with code and design reviews, following industry best practices.
 - Resolved critical production bugs within tight deadlines, leveraging tools such as AWS Cloudwatch and Prometheus
 
 
 ### <span>Full Stack Software Engineer, Xealth</span><span>09/2019 - 02/2022</span>
-- Maintained the Automated Ordering system, which processed over 1M events per hour. It's a Dockerized state machine written in TypeScript integrated with AWS SQS and S3, driving 60% of revenue
+- Maintained the Automated Ordering system, which processed over 1M events per hour. It's a Dockerized state machine written in TypeScript and integrated with AWS SQS and S3, driving 60% of revenue
 - Contributed to the design of core Node/Express APIs, which serve the patient portal, doctor portal, data reporting, ordering, internal tools, and vendor callbacks.
-- Developed an Event Notification service using AWS Lambdas, SQS, and S3, consistently delivering 300K events daily to subscribers
-- Optimized a sluggish Lambda API with caching and concurrent request management, slashing response latency by 85% and increasing user productivity by over 30%.
+- Developed an Event Notification service using AWS Lambdas, SQS, and S3, consistently delivering 300K events daily to subscribers, resulting in 5% of total orders.
+- Optimized a sluggish Lambda API through caching and concurrent request management, slashing response latency by 85% and increasing user productivity by over 30%.
 - Identified inefficiencies in release tasks and enhanced developer efficiency by 50% via automation using a Bash script.
-- Designed and implemented 5+ API integrations, handling 200K requests via SOAP or REST/OAuth protocols.
+- Designed and implemented 5+ external API integrations, handling 200K requests via SOAP or REST/OAuth protocols.
 - Reduced developer configuration requirements by 25% by employing Object-Oriented design principles, minimizing code duplication.
-- Contributed 35% of the code for the Config Manager UI (project of 3 engineers), which was built on React-Redux and consisted of hundreds of components and containers.
 - Collaborated with customers and vendors to resolve bugs and support design decisions.
 
 ### <span>Software Engineer Internship, Bespoke Metrics</span><span>01/2018 – 09/2018</span>
