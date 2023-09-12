@@ -14,9 +14,9 @@ is intended to be used for a short summary. -->
 ## Skills
 
 - **Language**: Typescript, Python, Bash
-- **Framework**: Node-Express,  Node-Nest, React-Redux, Python-Flask
+- **Framework**: Node-Express,  Node-Nest, React-Redux, Python/scikit-learn
 - **Database**  MongoDb, PSQL, Redis, ElasticSearch, DynamoDB
-- **Other**: Git, AWS EC2/ECS/S3/Lambda/SQS, Docker, Kubernetes, Temporal, NX, TDD
+- **Other**: Git, AWS EC2/ECS/S3/Lambda/SQS, Docker, Kubernetes, Prometheus, NX, TDD
 
 ## Experience
 
@@ -30,7 +30,7 @@ hand -->
 - Experimented with NestJS, Temporal, NX, and Vite, implemented them in production, and authored tech blogs to promote their adoption within the company.
 - Founded, architected and built a distributed Content Delivery System, resulting in a 40% reduction in operational costs per customer request.
       - Composed a 90+ page design doc through 5 iterations, reviewed by principal engineers
-      - Architected and built a Node-Nest Server with 80% test coverage. It collects 200 events per second from 4 webhooks and acts as a proxy to deliver data from Elasticsearch and various RESTful APIs.
+      - Architected and built a Dockerized Node-Nest Server. It collects 200 events per second from 4 webhooks and acts as a proxy to deliver data from Elasticsearch and various RESTful APIs.
       - Engineered a scalable and reliable Temporal Worker to transform and write data to OpenSearch, maintaining 100% data integrity even during 2 dependency outages. Utilized Kubernetes to scale pods 3 times expected loads, successfully completing a critical 40-minute production migration. 
       - Built the migration job, extracting 3TB of live data from ElasticSearch/S3 and transforming and writing it to rate-limited external APIs in batches.
       - Developed scripts for deploying App Config As Code to 3rd-party APIs to ensure a single source of truth.
