@@ -177,8 +177,12 @@ if __name__ == "__main__":
     else:
         logging.basicConfig(level=logging.INFO, format="%(message)s")
 
+    FILE_NAME = {
+        'backend.md': 'resume_MartinHsueh',
+        'fullstack.md': 'resume_martin_hsueh'
+    }
     dir = os.getcwd()
-    output_name = os.path.join(dir,'resume_martin_hsueh')
+    output_name = os.path.join(dir,FILE_NAME.get(args.file, 'resume'))
     with open(args.file, encoding="utf-8") as mdfp:
         md = mdfp.read()
     html = make_html(md)

@@ -24,18 +24,18 @@ is intended to be used for a short summary. -->
 hand -->
 ### <span>Career Break</span><span>05/2023 - 09/2023</span>
 - Fulfilled my dream of bikepacking around the island of Taiwan, jogged along the streneous 12-mile loop of the historic Seoul Wall, embarked on 5 river tracing expeditions, and indulged in all of the 8 cuisines of China. 
-### <span>Tech Lead - Internal Tools, Xealth</span><span>02/2022 - 05/2023</span>
+### <span>Tech Lead - Operations, Xealth</span><span>02/2022 - 05/2023</span>
 - Led an agile team of 5 engineers in managing the Xealth tooling ecosystem, including 2 mission-critical distributed systems and 5 full-stack applications written in TypeScript.
 - Collaborated with PM to create a code-free email template editor with React and TinyMCE, cutting cost per change by 80% and boosting turnaround time by 300%.
+- Experimented with NestJS, Temporal, NX, Contentful and Vite, implemented them in production, and authored tech blogs to promote their adoption within the company.
 - Designed 10+ ElasticSearch indices. Optimized a search algorithm, achieving an average latency of <3ms, far below the 80ms constraint.
 - Founded, architected and built a distributed Content Delivery System, resulting in a 40% reduction in operational costs per customer request.
-      - Composed a 90+ page design doc through 5 iterations, reviewed by principal engineers
+      - Composed a 90+ page design doc through 5 iterations, reviewed by principal engineers, PM and compliance.
       - Built 30 unique/10 generic UI Extensions with 80% test coverage, used across 4 React applications.
       - Architected and built a Node-Nest Server with 80% test coverage. It collects 200 events per second from 4 webhooks and acts as a proxy to deliver data from Elasticsearch and various RESTful APIs.
       - Engineered a scalable and reliable Temporal Worker to transform and write data to OpenSearch, maintaining 100% data integrity even during 2 dependency outages. Utilized Kubernetes to scale pods 3 times expected loads, successfully completing a critical 40-minute production migration. 
       - Built the migration job, extracting 3TB of live data from ElasticSearch/S3 and transforming and writing it to rate-limited external APIs in batches.
       - Developed scripts for deploying App Config As Code to 3rd-party APIs to ensure a single source of truth.
-- Experimented with NestJS, Temporal, NX, Contentful and Vite, implemented them in production, and authored tech blogs to promote their adoption within the company.
 - Partnered with cross-functional engineers to tackle intricate engineering challenges, then translated the design into roadmap.
 - Mentored junior engineers with code and design reviews, following industry best practices.
 - Resolved critical production bugs within tight deadlines, leveraging tools such as AWS Cloudwatch and Prometheus
