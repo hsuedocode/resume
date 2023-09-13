@@ -26,7 +26,7 @@ hand -->
 - Fulfilled my dream of bikepacking around the island of Taiwan, jogged along the streneous 12-mile loop of the historic Seoul Wall, embarked on 5 river tracing expeditions, and indulged in all of the 8 cuisines of China. 
 ### <span>Tech Lead - Operations, Xealth</span><span>01/2022 - 05/2023</span>
 - Led an agile team of 5 engineers in managing the Xealth tooling ecosystem, including 2 mission-critical distributed systems and 5 full-stack applications written in TypeScript.
-- Collaborated with PM to create a code-free email template editor with React and TinyMCE, cutting cost per change by 80% and boosting turnaround time by 300%.
+- Collaborated with PM and UX to create a code-free email template editor with React and TinyMCE, cutting cost per change by 80% and boosting turnaround time by 300%.
 - Experimented with NestJS, Temporal, NX, Contentful and Vite, implemented them in production, and authored tech blogs to promote their adoption within the company.
 - Designed 10+ ElasticSearch indices. Optimized a search algorithm, achieving an average latency of <3ms, far below the 80ms constraint.
 - Founded, architected and built a distributed Content Delivery System, resulting in a 40% reduction in operational costs per customer request.
