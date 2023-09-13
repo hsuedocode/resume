@@ -24,7 +24,7 @@ is intended to be used for a short summary. -->
 hand -->
 ### <span>Career Break</span><span>05/2023 - 09/2023</span>
 - Fulfilled my dream of bikepacking around the island of Taiwan, jogged along the streneous 12-mile loop of the historic Seoul Wall, embarked on 5 river tracing expeditions, and indulged in all of the 8 cuisines of China. 
-### <span>Tech Lead - Operations, Xealth</span><span>02/2022 - 05/2023</span>
+### <span>Tech Lead - Operations, Xealth</span><span>01/2022 - 05/2023</span>
 - Led an agile team of 5 engineers in managing the Xealth tooling ecosystem, including 2 mission-critical distributed systems and 5 full-stack applications written in TypeScript.
 - Designed 10+ ElasticSearch indices. Optimized a search algorithm, achieving an average latency of <3ms, far below the 80ms constraint.
 - Experimented with NestJS, Temporal, NX, and Vite, implemented them in production, and authored tech blogs to promote their adoption within the company.
@@ -39,7 +39,7 @@ hand -->
 - Resolved critical production bugs within tight deadlines, leveraging tools such as AWS Cloudwatch and Prometheus
 
 
-### <span>Full Stack Software Engineer, Xealth</span><span>09/2019 - 02/2022</span>
+### <span>Full Stack Software Engineer, Xealth</span><span>09/2019 - 01/2022</span>
 - Maintained the Automated Ordering system, which processed over 1M events per hour. It's a Dockerized state machine written in TypeScript and integrated with AWS SQS and S3, driving 60% of revenue
 - Contributed to the design of core Node/Express APIs, which serve the patient portal, doctor portal, data reporting, ordering, internal tools, and vendor callbacks.
 - Developed an Event Notification service using AWS Lambdas, SQS, and S3, consistently delivering 300K events daily to subscribers, resulting in 5% of total orders.
