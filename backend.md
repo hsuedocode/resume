@@ -9,33 +9,31 @@ line. It is intended to be used for contact details -->
 - Willing to relocate
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
-is intended to be used for a short summary. -->
+is intended to be used for a summary. -->
 
 ## Skills
 
-- **Language**: Typescript, Python, Bash
-- **Framework**: Node-Express,  Node-Nest, React-Redux, Python-Flask
-- **Database**  MongoDb, PSQL, Redis, ElasticSearch, DynamoDB
-- **Other**: Git, AWS EC2/ECS/S3/Lambda/SQS, Docker, Kubernetes, Temporal, NX, TDD
+- **Language**: Typescript/Javascript, Python, Bash, Matlab
+- **Technology**: NodeJS, NestJS, ReactJS, Redux, Flask, AWS, Tempora, scikit-learn
+- **Database**  MongoDB, PostgreSQL, Redis, ElasticSearch, DynamoDB
+- **DevOps**: Git, Docker, Kubernetes (K8s), NX, Vite, Terraform
 
 ## Experience
 
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
 ### <span>Career Break</span><span>05/2023 - 09/2023</span>
-- Fulfilled my dream of bikepacking around the island of Taiwan, jogged along the streneous 12-mile loop of the historic Seoul Wall, embarked on 5 river tracing expeditions, and indulged in all of the 8 cuisines of China. 
+- Fulfilled my dream of bikepacking around the island of Taiwan, jogged along the strenuous 12-mile loop of the historic Seoul Wall, embarked on 5 river tracing expeditions, and indulged in all of the 8 cuisines of China. 
 ### <span>Tech Lead - Operations, Xealth</span><span>01/2022 - 05/2023</span>
-- Led an agile team of 5 engineers in managing the Xealth tooling ecosystem, including 2 mission-critical distributed systems and 5 full-stack applications written in TypeScript.
+- Led an agile team of 5 engineers in managing the Xealth tooling ecosystem, including 2 mission-critical distributed systems and 5 AWS applications written in TypeScript.
 - Designed 10+ ElasticSearch indices. Optimized a search algorithm, achieving an average latency of <3ms, far below the 80ms constraint.
-- Experimented with NestJS, Temporal, NX, and Vite, implemented them in production, and authored tech blogs to promote their adoption within the company.
-- Founded, architected and built a distributed Content Delivery System, resulting in a 40% reduction in operational costs per customer request.
-      - Composed a 90+ page design doc through 5 iterations, reviewed by principal engineers, PM and compliance.
-      - Architected and built a Node-Nest Server with 80% test coverage. It collects 200 events per second from 4 webhooks and acts as a proxy to deliver data from Elasticsearch and various RESTful APIs.
-      - Engineered a scalable and reliable Temporal Worker to transform and write data to OpenSearch, maintaining 100% data integrity even during 2 dependency outages. Utilized Kubernetes to scale pods 3 times expected loads, successfully completing a critical 40-minute production migration. 
-      - Built the migration job, extracting 3TB of live data from ElasticSearch/S3 and transforming and writing it to rate-limited external APIs in batches.
-      - Developed scripts for deploying App Config As Code to 3rd-party APIs to ensure a single source of truth.
-- Partnered with cross-functional engineers to tackle intricate engineering challenges, then translated the design into roadmap.
-- Mentored junior engineers with code and design reviews, following industry best practices.
+- Developed scripts to deploy App Config as Code for 3rd-party APIs, reducing DevOps overhead by 90%, and received personal praise from the CTO.
+- Spearheaded the company's core Content Delivery System, resulting in a 40% reduction in operational costs per customer request.
+      - Composed a 90+ page design doc through 5 iterations, reviewed by principal engineers, PM, and compliance.
+      - Built a Node Server on Nest framework with 80% test coverage. It collects 200 events per second from 4 webhooks and acts as a proxy to deliver data from Elasticsearch and various RESTful APIs. Repo served as an exemplar for future projects.
+      - Engineered a scalable and reliable Temporal Worker to transform and write data to OpenSearch, maintaining 100% data integrity even during 2 dependency outages. Utilized Kubernetes to scale pods 3 times the expected loads, completing a critical 40-minute production migration.
+- Mentored junior engineers with code and design reviews, following industry best practices. 
+- Experimented with NestJS, Temporal, NX, Contentful, and Vite, implemented them in production, and authored tech blogs to promote their adoption within the company.
 - Resolved critical production bugs within tight deadlines, leveraging tools such as AWS Cloudwatch and Prometheus
 
 
@@ -49,17 +47,12 @@ hand -->
 - Reduced developer configuration requirements by 25% by employing Object-Oriented design principles, minimizing code duplication.
 - Collaborated with customers and vendors to resolve bugs and support design decisions.
 
-### <span>Software Engineer Internship, Bespoke Metrics</span><span>01/2018 – 09/2018</span>
+### <span>Software Engineer, Bespoke Metrics</span><span>01/2018 – 09/2018</span>
 - Enhanced 15+ JWT secured Python-Flask APIs with 95%+ code coverage
 - Improved development efficiency by 50% by implementing a set of typed data validators
 - Built the Bespoke framework, which consists of 8 generic APIs secured by OAuth2 and backed by PostgreSQL DB
 - Trained full stack coops to build APIs for the flagship COMPASS application
 
-
-### <span>Frontend Software Engineer Internship, TD Asset Management</span><span>04/2017 – 08/2017</span>
-- Enhanced 15+ React-Redux UI features for the Portfolio Management App.
-- Improved user workflow by building the user notification component on top of the UI 
-- Executed new features by working directly with team VP and end users
 
 ## Projects
 
