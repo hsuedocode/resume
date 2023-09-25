@@ -14,8 +14,8 @@ is intended to be used for a summary. -->
 ## Skills
 
 - **Language**: Typescript/Javascript, Python, Bash, Matlab
-- **Technology**: NodeJS, NestJS, ReactJS, Redux, Flask, AWS, Temporal, scikit-learn
-- **Database**  MongoDB, PostgreSQL, Redis, ElasticSearch, DynamoDB
+- **Technology**: NodeJS, NestJS, ReactJS, Redux, Flask, AWS SQS, Temporal, scikit-learn
+- **Database**  MongoDB, PostgreSQL, Redis, ElasticSearch/Kibana, DynamoDB
 - **DevOps**: Git, Docker, Kubernetes (K8s), NX, Vite, Terraform
 
 ## Experience
@@ -45,7 +45,7 @@ hand -->
 - Developed an Event Notification service using AWS Lambdas, SQS, and S3, consistently delivering 300K events daily to subscribers, resulting in 5% of total orders.
 - Optimized a sluggish Lambda API through caching and concurrent request management, slashing response latency by 85% and increasing user productivity by over 30%.
 - Identified inefficiencies in release tasks and enhanced developer efficiency by 50% via automation using a Bash script.
-- Designed and implemented 5+ external API integrations, handling 200K requests via SOAP or REST/OAuth protocols.
+- Designed and implemented 5+ external API integrations, handling 200K requests via REST/OAuth protocols.
 - Reduced developer configuration requirements by 25% by employing Object-Oriented design principles, minimizing code duplication.
 - Contributed 35% of the code for the Config Manager UI (project of 3 engineers), which was built on React-Redux and consisted of hundreds of components and containers.
 

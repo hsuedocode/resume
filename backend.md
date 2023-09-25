@@ -14,8 +14,8 @@ is intended to be used for a summary. -->
 ## Skills
 
 - **Language**: Typescript/Javascript, Python, Bash, Matlab
-- **Technology**: NodeJS, NestJS, ReactJS, Redux, Flask, AWS, Temporal, scikit-learn
-- **Database**  MongoDB, PostgreSQL, Redis, ElasticSearch, DynamoDB
+- **Technology**: NodeJS, NestJS, ReactJS, Redux, Flask, AWS SQS, Temporal, scikit-learn
+- **Database**  MongoDB, PostgreSQL, Redis, ElasticSearch/Kibana, DynamoDB
 - **DevOps**: Git, Docker, Kubernetes (K8s), NX, Vite, Terraform
 
 ## Experience
